@@ -1,3 +1,0 @@
-# EXEMPLO 
-
-print("Teste")
