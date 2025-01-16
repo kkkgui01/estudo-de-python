@@ -1,4 +1,4 @@
-exemplo do livro logo abaixo 
+#exemplo do livro logo abaixo 
 # minutos=int(input("Quantos minutos você utilizou este mês:"))
 # if minutos < 200: 
 #     preço = 0.20 
@@ -30,30 +30,26 @@ exemplo do livro logo abaixo
 #  preço = preço
 #  print("O preço do produto é: R$%6.2f" % preço)
 
-# entrada = int(input("digite um numero : "))
-# entrada2 = int(input("digite outro numero : "))
-# operacao = input(" digite -,+, * ou / : ")
+entrada = int(input("digite um numero : "))
+entrada2 = int(input("digite outro numero : "))
+operacao = input(" digite -,+, * ou / : ")
 
-# # soma
-# print(entrada + entrada2)
-# #divisão
-# print (entrada / entrada2)
-# #subtração 
-# print (entrada - entrada2)
-# #multiplicação 
-# print (entrada * entrada2)
+# soma
+#print(entrada + entrada2)
+#divisão
+#print (entrada / entrada2)
+#subtração 
+#print (entrada - entrada2)
+#multiplicação 
+#print (entrada * entrada2)
 
-# if operacao == "+":
-#    print("{} + {} = ".format(entrada + entrada2))
-#    print(entrada + entrada2)
-# elif operacao == "-":
-#    print("{} - {} = ".format(entrada - entrada2))
-#    print(entrada - entrada2)
-# elif operacao == "*":
-#     print("{} * {} = ".format(entrada * entrada2))
-#     print(entrada * entrada2)
-# elif operacao == "/":
-#    print("{} / {} =".format(entrada / entrada2))
-#    print(entrada / entrada2)
-# else : 
-#    print("voce deve colocar algum operador valido (+,-, *, /)")
+if operacao == "+":
+   print("{} + {} = {}".format(entrada, entrada2, (entrada + entrada2)))
+elif operacao == "-":
+   print("{} - {} = {} ".format(entrada,  entrada2, (entrada -  entrada2)))
+elif operacao == "*":
+    print("{} * {} = {} ".format(entrada, entrada2, (entrada * entrada2)))
+elif operacao == "/":
+   print("{} / {} = {}".format(entrada, entrada2, (entrada / entrada2)))
+else : 
+   print("voce deve colocar algum operador valido (+,-, *, /)")
