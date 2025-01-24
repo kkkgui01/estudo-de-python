@@ -37,3 +37,13 @@ while questão <= 3:
         pontos = pontos + 1
     questão +=1
     print("O aluno fez %d ponto(s)" % pontos)
+
+
+taxa = int(input("digite o deposito inicial :"))
+x = taxa
+juros = int(input("valor de juros :")) 
+y = juros 
+calculo = x * y
+z = calculo //100
+print(z)
+
