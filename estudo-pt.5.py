@@ -30,9 +30,9 @@
 #  preço = preço
 #  print("O preço do produto é: R$%6.2f" % preço)
 
-entrada = int(input("digite um numero : "))
-entrada2 = int(input("digite outro numero : "))
-operacao = input(" digite -,+, * ou / : ")
+# entrada = int(input("digite um numero : "))
+# entrada2 = int(input("digite outro numero : "))
+# operacao = input(" digite -,+, * ou / : ")
 
 # soma
 #print(entrada + entrada2)
@@ -43,13 +43,13 @@ operacao = input(" digite -,+, * ou / : ")
 #multiplicação 
 #print (entrada * entrada2)
 
-if operacao == "+":
-   print("{} + {} = {}".format(entrada, entrada2, (entrada + entrada2)))
-elif operacao == "-":
-   print("{} - {} = {} ".format(entrada,  entrada2, (entrada -  entrada2)))
-elif operacao == "*":
-    print("{} * {} = {} ".format(entrada, entrada2, (entrada * entrada2)))
-elif operacao == "/":
-   print("{} / {} = {}".format(entrada, entrada2, (entrada / entrada2)))
-else : 
-   print("voce deve colocar algum operador valido (+,-, *, /)")
+# if operacao == "+":
+#    print("{} + {} = {}".format(entrada, entrada2, (entrada + entrada2)))
+# elif operacao == "-":
+#    print("{} - {} = {} ".format(entrada,  entrada2, (entrada -  entrada2)))
+# elif operacao == "*":
+#     print("{} * {} = {} ".format(entrada, entrada2, (entrada * entrada2)))
+# elif operacao == "/":
+#    print("{} / {} = {}".format(entrada, entrada2, (entrada / entrada2)))
+# else : 
+#    print("voce deve colocar algum operador valido (+,-, *, /)")
