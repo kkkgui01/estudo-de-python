@@ -27,11 +27,11 @@
 div = int(input("valor da dívida :"))
 juros = int(input("juros mensal :"))
 valor_pago_mensal = int(input("valor pago por mês :"))
-x = 0 
-while  x<= div:
-    x = x + 1
-    div = div + div * juros/100
-    div = div - valor_pago_mensal
-    print("{} mês = {}".format(x, div))
-    if div <= 0:
-        break
+x = 0
+
+while  valor_pago_mensal <= div:
+    x = x + 1 
+    valor_pago_mensal = valor_pago_mensal + (valor_pago_mensal * juros/100)
+    print("{} mês = R${:3.2f} ".format(x, valor_pago_mensal))
+print("o valor da divida foi paga em {} meses".format(x))
+    
